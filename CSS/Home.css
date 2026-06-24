@@ -7,8 +7,6 @@
     
 }
 
-
-
 .content{
     display: flex;
     flex-direction: column;
@@ -52,10 +50,8 @@ header{
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
-    
+     z-index: 1000;
 }
-
-
 
 header img{
     width: 80px;
@@ -87,7 +83,7 @@ header nav a:hover{
     padding-right: 40px;
     display: flex;
     flex-direction: column;
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 .banner-info label{
@@ -123,9 +119,7 @@ header nav a:hover{
 .big-item img{
     width: 200px;
     height: 100px;
-    
 }
-
 
 .img-item{
     height: 90vh;
@@ -144,6 +138,7 @@ header nav a:hover{
     margin-bottom: 20px;
     margin-left: 20px;
     background: #2b2727;
+    letter-spacing: 2px;
     height: 40px;
     width: 170px;
     color: #fff;
@@ -170,6 +165,7 @@ header nav a:hover{
     display: flex;
     flex-direction: row;
     gap: 150px;
+    margin-bottom: 80px;
 }
 
 .small-items{
@@ -201,4 +197,140 @@ header nav a:hover{
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+}
+
+.name h1{
+     font-weight: 500;
+     font-size: 14px;
+}
+
+.name span{
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.info .price{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+footer{
+    background: #000000;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.navs{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.nav1, .nav2{
+    gap: 0;
+    line-height: 2;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav1 a,
+.nav2 a{
+    color: #78787a;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.contact{
+    display: flex;
+    align-items: end;
+    flex-direction: column; 
+}
+
+.contact-info{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.contact-info .num{
+    margin-top: 10px;
+    color: #78787a;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.location span{
+    color: #78787a;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.rights{
+    display: flex;
+    flex-direction: column;
+}
+
+.rights img{
+    width: 130px;
+}
+
+.rights label{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 40PX;
+}
+
+.span1{
+    font-size: 13px;
+    color: #78787a;
+}
+
+.span2{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.295);
+    margin-top: 10px;
+}
+
+.quote1,
+.quote2,
+.quote3{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.quote3{
+    color: #78787a;
 }
